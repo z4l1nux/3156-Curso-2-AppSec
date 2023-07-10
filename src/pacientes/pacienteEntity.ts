@@ -55,7 +55,7 @@ export class Paciente implements IAutenticavel {
     possuiPlanoSaude: boolean
 
   @Column({ type: 'simple-array', nullable: true })
-    planosSaude: string
+    planosSaude: string[]
 
   @Column({ type: 'simple-array', nullable: true })
     historico: string
